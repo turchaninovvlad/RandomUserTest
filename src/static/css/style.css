@@ -73,6 +73,18 @@ img {
 .submit-btn:hover {
     background: #45a049;
 }
+.random{
+    padding: 8px 16px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.random-btn:hover {
+    background: #45a049;
+}
 
 .user-detail {
     max-width: 800px;
