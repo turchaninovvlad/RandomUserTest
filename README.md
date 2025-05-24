@@ -35,9 +35,9 @@ project
 
 1. Клонировать репозиторий
 2. Создать виртуальное окружение:
-   ```
-   python -m venv .venv
-   ```
+```
+python -m venv .venv
+```
 3. Активировать окружение:
 ```
 .\.venv\Scripts\Activate.ps1
