@@ -7,7 +7,7 @@ from .settings_db import settings_db
 
 engine = create_async_engine(
     settings_db.database_url,
-    echo=True,
+    echo=settings_db.DB_ECHO_LOG,
     future=True
 )
 
