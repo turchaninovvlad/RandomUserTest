@@ -43,9 +43,9 @@ python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 ```
 4. Перейти в папку проекта
-   ```
-   cd RandomUserTest
-   ```
+ ```
+ cd RandomUserTest
+ ```
 5. Установить зависимости:
 
 ```
