@@ -42,17 +42,21 @@ python -m venv .venv
 ```
 .\.venv\Scripts\Activate.ps1
 ```
-4. Установить зависимости:
+4. Перейти в папку проекта
+   ```
+   cd RandomUserTest
+   ```
+5. Установить зависимости:
 
 ```
 pip install -r requirements.txt
 ```
-5. Запустить приложение:
+6. Запустить приложение:
 
 ```
 python main.py
 ```
-6. Открыть в браузере: http://localhost:8000
+7. Открыть в браузере: http://localhost:8000
 
 ## Использование API
 Основные эндпоинты:
