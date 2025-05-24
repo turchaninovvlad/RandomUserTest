@@ -29,38 +29,37 @@ markdown
 project
 ```
 ├── src/
-│ ├── config/ # Конфигурация приложения
+│ ├── config/ 
 │ │ └── database/ # Настройки БД
 │ ├── models/ # Модели данных
 │ ├── routes/ # Маршруты приложения
 │ ├── services/ # Бизнес-логика
 │ ├── static/ # Статические файлы
 │ └── templates/ # HTML шаблоны
-├── tests/ # Тесты
-│ ├── services/ # Тесты сервисов
-│ └── test_routes.py # Тесты маршрутов
-├── main.py # Точка входа
-├── requirements.txt # Зависимости
-└── pytest.ini # Конфигурация тестов
+├──tests/
+│ ├── services/ 
+│ └── test_routes.py 
+├── main.py 
+└── requirements.txt 
 ```
 
 ## Установка и запуск (Windows)
 
 1. Клонировать репозиторий
 2. Создать виртуальное окружение:
-   ```powershell
+   ```
    python -m venv .venv
 Активировать окружение:
 
-powershell
+
 .\.venv\Scripts\Activate.ps1
 Установить зависимости:
 
-powershell
+
 pip install -r requirements.txt
 Запустить приложение:
 
-powershell
+
 python main.py
 Открыть в браузере: http://localhost:8000
 
