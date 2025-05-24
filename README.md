@@ -34,7 +34,10 @@ project
 ## Установка и запуск (Windows)
 
 1. Клонировать репозиторий
-2. Создать виртуальное окружение:
+```
+ git clone https://github.com/turchaninovvlad/RandomUserTest.git
+```
+4. Создать виртуальное окружение:
 ```
 python -m venv .venv
 ```
