@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <div class="random-user">
+        <h1>Random User</h1>
+        <div class="user-card">
+            <img src="{{ user.picture_large }}" alt="User photo" class="user-photo">
+            <div class="user-info">
+                <p><strong>Name:</strong> {{ user.full_name }}</p>
+                <p><strong>Gender:</strong> {{ user.gender }}</p>
+                <p><strong>Email:</strong> {{ user.email }}</p>
+                <p><strong>Phone:</strong> {{ user.phone }}</p>
+                <p><strong>Location:</strong> {{ user.location }}</p>
+            </div>
+        </div>
+        <div class="actions">
+            <a href="/random" class="btn">Get Another Random User</a>
+            <a href="/" class="btn">Back to list</a>
+        </div>
+    </div>
+{% endblock %}

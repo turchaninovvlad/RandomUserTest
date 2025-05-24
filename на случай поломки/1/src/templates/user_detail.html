@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <div class="user-detail">
+        <h1>User Details</h1>
+        <div class="user-card">
+            <img src="{{ user.picture_large }}" alt="User photo" class="user-photo">
+            <div class="user-info">
+                <p><strong>Name:</strong> {{ user.full_name }}</p>
+                <p><strong>Gender:</strong> {{ user.gender }}</p>
+                <p><strong>Email:</strong> {{ user.email }}</p>
+                <p><strong>Phone:</strong> {{ user.phone }}</p>
+                <p><strong>Location:</strong> {{ user.location }}</p>
+            </div>
+        </div>
+        <a href="/" class="back-link">Back to list</a>
+    </div>
+{% endblock %}
